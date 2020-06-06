@@ -1,0 +1,431 @@
+<!DOCTYPE>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">腹部肌肉訓練</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/100586201_574654743185844_2123149673265889280_n.jpg?_nc_cat=106&_nc_sid=b96e70&_nc_oc=AQl6egIlkmo-j_RD1d-nM4s1-_px_qXPA0Gjz0wyfSjIqzd5cNGNIt1WvxcaNgv_YOI&_nc_ht=scontent.ftpe7-1.fna&oh=da258b6bf848213a7677f24c381f3485&oe=5EF9AD38" style="width:100%">
+  <img class="mySlides" src="https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/100558406_2602409333313797_7591660566070951936_n.jpg?_nc_cat=102&_nc_sid=b96e70&_nc_oc=AQlwKugk5EdL0tDDKbtL9Zg7JUHcrTHFQCOHIhXjJ9zfHHTWw8GI5SuwnOIW8ZltMV8&_nc_ht=scontent.ftpe7-3.fna&oh=ad3f36d75917faef9c4ffc98c27f3577&oe=5EF7C445" style="width:100%">
+  <img class="mySlides" src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/101384536_2713919178891769_2809201133216595968_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_oc=AQncQxFgnSnf51TPZNlxk1E8L-z-HflBplCLEBLWBIyfeRH3qJbqIl9L6cwEsbmwUIs&_nc_ht=scontent.ftpe7-4.fna&oh=7a397bfd498378b27744054bf8405ee6&oe=5EF96093" style="width:100%">
+  <img class="mySlides" src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.15752-9/101383671_2575223589460349_4366954976560283648_n.jpg?_nc_cat=111&_nc_sid=b96e70&_nc_oc=AQmPAMSCUGDuWjlS-GENUm1fXRH8BfnbtQ_Bwx2qYUk6xx7nJ4Yb0vOJMEigqfVnXT0&_nc_ht=scontent.ftpe7-2.fna&oh=7b89ed49106a72b3820079914a455315&oe=5EF8953D" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+ <br><br> 
+ <div style="background:url('https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/60813553_433253887495180_895075861705785344_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQkixbLPwfnLL_CkvVzZbzToqrRcxz1pMOF9sAfqvEMPB4dASLBnNh1pbZGJThE5YVQ&_nc_ht=scontent.ftpe7-3.fna&_nc_tp=7&oh=e8f71564a22a0d6ced516be13cd110a2&oe=5EF94434') no-repeat;background-size:cover;max-height: 800px;">
+<br><br>
+ <h1 style="text-align: center; margin-left: 250px;">建議時間：２０分鐘</h1><br>
+ <table>
+
+    <div class="container"style="margin-left: 100px;">
+    <div class="pie-box">
+    <div class="pie" id="clockPie">
+      <div class="pie__segment" style="--value: 0; --over50: 0"></div>
+      <!-- value 超過 50 就要把 over50 設為 1 -->
+      </div>
+     <div class="control">
+    <button class="myButton1" id="startBtn">start</button>
+    <br></br>
+    <button class="myButton2" id="cancelBtn" disabled>cancel</button>
+    </div>
+
+</table>
+  <h3 style="margin-right: 40px; margin-left: 540px;margin-top: 200px; font-size: 20px;">當背部肌肉擁有足夠的力量時，才能緩解因姿態不良造成的壓迫感，達到矯正姿勢、讓體態更挺拔、更有精神的效果。 除此之外，當你在進行向上、向前的重訓動作時，背部肌肉也能產生抗衡作用，在訓練時，能使全身肌肉有效發揮作用，讓動作訓練更有效率，同時避免肌肉受傷。 由此可知，背肌訓練相當重要！</h3>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</head>
+<body>
+  <div class="pic"  style="width:33%!important; ">
+  
+  <div style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSeTo5-iZ39K2PQzzObYq_xt3eLpnmK8knvkMNx4MNazmAPZd28&usqp=CAU') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+
+      <div class="text1 ">
+
+        <h1 class="demo">U 形左右抬腿</h1>
+        <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+          鍛鍊腹肌，改善臀腿線條。<br><br><br><a href="#div1">前往訓練</a>
+        </p>
+
+     </div>
+    </div>
+  </div>
+
+<div class="pic"  style="width:33%!important; display:inline-block;">
+  <div style="background:url('https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-0/p480x480/82268482_181671339849302_7961739257809207296_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQn7dUcllnpPcQTL51lVn19aq42lAFdrqB7ujBbZyYEKeb44fH-DIBe120tfvtOhb5w&_nc_ht=scontent.ftpe7-3.fna&_nc_tp=6&oh=191b319acb765d7189cbb7697b48eeb8&oe=5EF6B2FB') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+    <div class="text1">
+      <h1 class="demo">V 字形起坐</h1>
+      <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+        鍛鍊腹直肌、腹外斜肌、腹內斜肌和髖屈肌，增強身體的平衡和協調能力。<br><br><br><a href="#div2">前往訓練</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="pic" style="width:33%!important;">
+  <div style="background:url('https://top1cdn.top1health.com/cdn/am/74990/169034.jpg') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+    <div class="text1">
+      <h1 class="demo">升降提腿腹肌運動</h1>
+      <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+        穩定步態，減少下背痛，增加腰背耐久度，保護脊椎，提升基礎代謝率。<br><br><br><a href="#div3">前往訓練</a>
+    </div>
+  </div>
+</div>
+
+<div class="pic"  style="width:33%!important; ">
+  
+  <div style="background:url('https://image.pttnews.cc/2019/04/17/67f0d7a3b3/391d7a9d9744f2e54ef8c23b4d50f855.jpg?redirect=true') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+
+      <div class="text1 ">
+
+        <h1 class="demo">爬行式</h1>
+        <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+          通過爬行式能夠提高人的握力、背力、上下肢的力量，並且能夠提高靜態穩定性和動態穩定性，增強核心穩定性。<br><br><br><a href="#div4">前往訓練</a>
+        </p>
+
+     </div>
+    </div>
+  </div>
+
+<div class="pic"  style="width:33%!important; display:inline-block;">
+  <div style="background:url('https://www.jianshen8.com/uploads/allimg/200210/24_200210160341_1.jpg') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+    <div class="text1">
+      <h1 class="demo">深蹲</h1>
+      <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+        強健心肺功能、提高爆發力、提高彈跳力、練出美臀。<br><br><br><a href="#div5">前往訓練</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="pic" style="width:33%!important;">
+  <div style="background:url('https://i1.wp.com/r.sinaimg.cn/large/article/17191e930c0a1a91dfe89084f7f7e4cd') no-repeat;background-size:cover;min-height:400px;margin-left:-3px;position: relative;">
+    <div class="text1">
+      <h1 class="demo">單車式捲腹</h1>
+      <p class="demo" style="font-family:AzoSans-Medium; font-size: 16px;" >
+        加強股四頭肌、雕塑腰部線條、伸展頸部肌肉。
+<br><br><br><a href="#div6">前往訓練</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div style="background-color:   #FFEEDD; #ccc solid;">
+<div style="text-align: center;font-size: 40px;"id="div1"><br><br>1.U 形左右抬腿</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>坐在地板上，膝蓋彎曲，雙腳平放。身體向後仰，手肘撐在地板上。胸部挺起並將肩膀往後拉。膝蓋併攏，繃緊腹肌，將雙腿抬起，讓臀部和彎曲的膝蓋形成 90 度角。</li>
+    <li>慢慢地將膝蓋帶向身體的一側，臀部兩邊維持在地板上。將雙腿稍微降下，然後用膝蓋在空中畫個「 U 」。</li></ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：避免下背部過度圓背或拱起。上半身保持筆直。別讓肩膀下垂。保持挺胸，並將肩膀向後收。
+      </p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+
+<div style="text-align: center;font-size: 40px;"id="div2"><br><br>2.V 字形起坐</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>仰躺在地板上，雙腿伸直，雙腳併攏。將雙臂高舉過頭，貼緊耳朵。</li>
+    <li>同時將雙腿與軀幹抬離地面。以臀部維持平衡，將雙臂往前伸，觸碰腳踝。以反向動作回到起始位置。</li>
+    </ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：不要弓起背部。相反地，在整個動作過程中，務必持續挺胸並保持脊椎平直。
+      </p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+<div style="text-align: center;font-size: 40px;"id="div3"><br><br>3.升降提腿腹肌運動</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>採伏地挺身姿勢，雙手打開與肩同寬，撐在肩膀正下方。將一腳膝蓋舉至手肘，用力貼緊手臂。</li>
+    <li>繃緊核心肌群，將膝蓋沿著前臂向下往手腕滑。停頓一下。繃緊核心肌群，將膝蓋抬起回到手肘高度。將腿放下，回到起始位置。</li>
+ </ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：
+      不要轉動軀幹。相反地，在整個動作期間，肩膀與髖部務必與地面保持平行。請勿過度伸展下背部。</p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+<div style="text-align: center;font-size: 40px;"id="div4"><br><br>4.爬行式</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>呈站姿，雙腳打開與臀部同寬。俯身並將雙手擺在雙腳前方的地板上。</li>
+    <li>將重心轉移到雙手上，然後開始用雙手向前爬行。爬行時，繃緊核心肌群並收緊臀肌，保持背部打直。</li>
+    <li>雙手向前爬行至頭部下方。身體從肩膀到雙腳應成一直線。以反向動作回到起始位置。</li>
+    </ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：進行爬行動作過程中，臀部不要下沉或抬高。爬行時，手肘務必用力打直。不要彎曲。從站姿俯身碰觸地面時，請確實將臀部向後推，感受腿後肌繃緊。</p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+<div style="text-align: center;font-size: 40px;"id="div5"><br><br>5.深蹲</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>盡量抬頭挺胸站直，雙腳打開與肩同寬，腳尖稍微向外。雙臂維持在身體前方胸部的高度，以助於維持平衡。</li>
+    <li>臀部下沉並向後坐，直到大腿與地面平行。停頓一下，然後用腳跟的力量將身體抬回至起始位置，並在最高點夾緊臀肌。</li>
+    </ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：為了緩和，請將對側的手和腿擺在地板上，然後再換邊進行。趴下時，將肚臍抬離地面，彷彿在腹部下方有顆小球。目標是感受手指和腳趾的延伸，並被拉向遠離彼此的方向。</p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+<div style="text-align: center;font-size: 40px;"id="div6"><br><br>6.單車式捲腹</div>
+<table border="0" width="90%" cellspaceing="5" cellpadding="5">
+  <tr>  
+   <th style="text-align: left; padding-left: 30px; "><br>
+    <ul><li>仰躺，膝蓋彎曲，雙腳平踩地面。將雙手放在頭部後方。</li>
+    <li>將肩胛骨抬離地面，再將雙腿高舉離地，膝蓋彎曲成 90 度。</li>
+    <li>然後雙腿在空中慢慢踩踏，雙腳交替，做出踩腳踏車的動作。</li>
+    </ul><br>
+    <p style="color:#CE0000; margin-left: 10px;">注意事項：不要將頭往前拉。讓頭部保持在自然位置。切勿用力過猛。注意控制動作的速度與力道。雙腿進行踩腳踏車動作時，盡量用力收緊腹肌。</p></th>
+   <th>
+    <br><iframe width="500px;" height="400px;" src="https://www.youtube.com/embed/ITdjE6wDKm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"style="margin-left: 100px;margin-top: 20px;" allowfullscreen></iframe>
+   </th>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
+<script src="timer.js"></script>
+
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+  $('#BackTop').click(function(){ 
+    $('html,body').animate({scrollTop:0}, 333);
+  });
+  $(window).scroll(function() {
+    if ( $(this).scrollTop() > 300 ){
+      $('#BackTop').fadeIn(222);
+    } else {
+      $('#BackTop').stop().fadeOut(222);
+    }
+  }).scroll();
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+<style>
+  .demo{
+    font-family:"AzoSans-Medium" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+  body{
+  margin:0;padding:0px;
+  }
+  .text1{
+    color:#fff;;padding:10px; background-color: #173080; max-width: 200px; text-align:left;position:absolute;top:0px;right:0px;min-height:200px;
+  }
+  .text1:hover{
+    background-color: #ff4910;
+  }
+
+.pic{
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+}
+
+
+.pie {
+  background: var(--remain-color, #639);
+  border-radius: 100%;
+  height: calc(var(--size, 200) * 1px);
+  width: calc(var(--size, 200) * 1px);
+  position: relative;
+  /* overflow: hidden; */
+  clip-path: circle(50%);
+}
+.pie__segment {
+  --a: calc(var(--over50, 0) * -100%);
+  --b: calc((1 + var(--over50, 0)) * 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+  clip-path: polygon(var(--a) var(--a),var(--b) var(--a),var(--b) var(--b), var(--a) var(--b));
+  /* 改使用剪裁多邊形 */
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  transform: translate(0%, 50%) rotate( calc(var(--offset, 90)* 1deg));
+  transform-origin: 100% 50%;
+  transition: clip-path 0s;
+}
+.pie__segment:after,
+.pie__segment:before {
+  background: var(--pass-color, #f00); 
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.pie__segment:before {
+  --degrees: calc((var(--value,0)/100)*360);
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translate(0, 100%) rotate( calc(var(--degrees) * 1deg));
+  /* 因為 pie__segment 已經轉了90 度, 所以 translate 100% 會往左移 */
+  transform-origin: 50% 0%;
+  /* transition: transform 1s; */
+}
+.pie__segment:after {
+  opacity: var(--over50, 0);
+  /* transition-delay: 1s; */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  /* height: 100%; */
+}
+.pie-box {
+  --size: 200;
+  --pass-color: #aa3333;
+  --remain-color: #5555aa;
+  height: calc(var(--size, 200) * 1px);
+  width: calc(var(--size, 200) * 1px);
+  margin: 0 auto;
+}
+.control{
+  margin-top: calc((var(--size,200) / 10 )*1px);
+  text-align: center;
+}
+
+
+.myButton1 {
+    background-color:#00cf37;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton1:hover {
+    background-color:#235e04;
+}
+.myButton1:active {
+    position:relative;
+    top:1px;
+}
+
+.myButton2 {
+    background-color:#f00e0e;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton2:hover {
+    background-color:#a80303;
+}
+.myButton2:active {
+    position:relative;
+    top:1px;
+}
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position:fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #f90;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+</style>
+
+<script type="text/javascript">
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
